@@ -58,6 +58,7 @@ foreach($repos as $repo) {
 	if($repo["language"] != "") {
 		if($repo["language"] == "C#") {$repo["language"]="CSharp";}
 		else if($repo["language"] == "C++") {$repo["language"]="Cpp";}
+		$repo["language"]=str_replace("-", "_", $repo["language"]);
 		$repo["language"]=trim(str_replace(" ", "_", $repo["language"]));
 		$message.="\n#".$repo["language"];
 	}
