@@ -2,6 +2,10 @@
 
 A Tiny script to send tweet for new projects in GitHub Trending.
 
+GitHub Trend, help to find interest and fantastic projects
+
+Send your repository if you are a black #BlackLivesMatter
+
 https://twitter.com/GithubTrend
 
 [![twitter-github-trend](screen.jpg)](https://twitter.com/GithubTrend)
