@@ -56,6 +56,9 @@ if(isset($argv[1]) and $argv[1] == "test") {
 foreach($repos as $repo) {
 	$message=$repo["link"];
 	if($repo["language"] != "") {
+		if($repo["language"] == "C#") {$repo["language"]="CSharp";}
+		else if($repo["language"] == "C++") {$repo["language"]="Cpp";}
+		$repo["language"]=trim(str_replace(" ", "_", $repo["language"]));
 		$message.="\n#".$repo["language"];
 	}
 	if(strlen($message) + strlen($repo["description"])+1 <= 280) {
