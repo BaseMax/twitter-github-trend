@@ -73,6 +73,7 @@ foreach($repos as $repo) {
 		try {
 			$tweet = $twitter->send($message);
 			file_put_contents("db.txt", "->".$repo["repository"]."\n", FILE_APPEND);
+			sleep(15);
 		} catch (DG\Twitter\TwitterException $e) {
 			echo 'Error: ' . $e->getMessage();
 		}
