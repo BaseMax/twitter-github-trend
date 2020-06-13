@@ -4,6 +4,8 @@ A Tiny script to send tweet for new projects in GitHub Trending.
 
 https://twitter.com/GithubTrend
 
+[![twitter-github-trend](logo.jpg)](https://twitter.com/GithubTrend)
+
 ---------
 
 **Thanks to:** Andy Smith and David Grudl
