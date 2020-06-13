@@ -8,11 +8,13 @@
 
 A Tiny script to send tweet for new projects in GitHub Trending.
 
-If you have a significant repository, send the link on Twitter....
+PHP script to **crawler** and get list of trending repositories in GitHub.
 
 https://twitter.com/GithubTrend
 
 [![twitter-github-trend](screen.jpg)](https://twitter.com/GithubTrend)
+
+If you have a significant repository, send the link on Twitter....
 
 ---------
 
