@@ -56,7 +56,7 @@ if(isset($argv[1]) and $argv[1] == "test") {
 foreach($repos as $repo) {
 	$message=$repo["link"];
 	if($repo["language"] != "") {
-		$message."\n#".$repo["language"];
+		$message.="\n#".$repo["language"];
 	}
 	if(strlen($message) + strlen($repo["description"])+1 <= 280) {
 		$message=$repo["description"]."\n".$message;
