@@ -16,6 +16,10 @@ https://twitter.com/GithubTrend
 
 If you have a significant repository, send the link on Twitter....
 
+### Depends on
+
+- https://github.com/BaseMax/NetPHP
+
 ---------
 
 **Thanks to:** Andy Smith and David Grudl
